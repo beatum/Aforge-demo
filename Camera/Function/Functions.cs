@@ -14,7 +14,6 @@ namespace Camera.Function
         /// <summary>
         /// load camera device 
         /// </summary>
-        /// <param name="filterInfoCollection"></param>
         /// <returns>camera device count</returns>
         public static FilterInfoCollection loadCamerasList() {
             FilterInfoCollection filterInfoCollection = new FilterInfoCollection(FilterCategory.VideoInputDevice);
